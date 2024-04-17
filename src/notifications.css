@@ -1,0 +1,16 @@
+:root {
+  --hred: red; /* Define the hred variable */
+}
+
+.Notifications {
+  border: 3px dashed var(--hred); /* Dashed line border */
+  padding: 6px 12px;
+}
+
+li[data-priority="default"] {
+  color: blue;
+}
+
+li[data-priority="urgent"] {
+  color: red;
+}
